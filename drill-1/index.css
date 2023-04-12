@@ -1,0 +1,35 @@
+body {
+    background-color: gainsboro;
+    overflow-y: hidden;
+}
+
+header {
+    height: 200px;
+    background-color: #303030;
+}
+
+section{
+    display: flex;
+}
+
+.square{
+    height: 100vh;
+    width: 200px;
+    top: 200px;
+    background-color: gray;
+}
+
+.right{
+    position: fixed;
+    right: 0px;
+    background-color: gray;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 100px;
+    right: 200px;
+    left: 200px;
+    background-color: black;
+}
